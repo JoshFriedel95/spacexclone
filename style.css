@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 200vh;
+    padding-top: 10vh;
+}
+html { 
+    background: url(https://wallpapercave.com/wp/wp2284539.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 250px;
+    margin-top: -100px;
+}
+.right-header{
+    align-items: flex-end;
+    margin-left: 875px;
+}
+.logo{
+    display: flex;
+    /* position: fixed; */
+    height: 5vh;
+    width: 5vw;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 75px;
+    padding-top: 30px;
+}
+.nav-item{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.menu{
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+    margin-left: -50px;
+}
+.gps{
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 285px;
+    left: 250px;
+}
+.vehicle{
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 250px;
+    left: 250px;
+}
+.text{
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 335px;
+    left: 250px;
+}
+.box{
+    border: 2px solid white;
+    padding-top: 35px;
+    padding-left: 100px;
+    position: absolute;
+    bottom: 150px;
+    left: 250px;
+    /* display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center; */
+}
+p {
+    color: white;
+    text-align: center;
+    display: flex;
+    position: relative;
+    right: 50px;
+    bottom: 15px;
+}
+
+
+
+
